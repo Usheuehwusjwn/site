@@ -4,7 +4,7 @@ const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
 const secretCode = ['Preesha', 'Divyanshi', 'Tanvi'];
 const nextPageUrl = 'main.html';
-const ipGeolocationApiKey = "f575b71ef42f47f3acef56531f4491d1";
+const ipGeolocationApiKey = "7fed0bea17ae4964ac8dd8ccd83fb726";
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
