@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Love</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
-	<form id="login-form">
-		<label for="code">Enter Your Name:</label>
-		<input type="password" id="code" name="code">
-		<button id="submit-btn">Login</button>
-	</form>
-	<div id="result"></div>
+    
+    <form id="login-form">
+        <label for="code">Enter Your Name:</label>
+        <input type="password" id="code" name="code">
+        <button id="submit-btn" type="submit">Login</button>
+    </form>
+    
+    <div id="result"></div>
 
-	<script src="script.js"></script>
+    <!-- External JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+    <script src="https://api.ipgeolocation.io/api/ipgeo.js"></script>
+
+    <!-- Your Custom Script -->
+    <script src="script.js"></script>
+
 </body>
 </html>
